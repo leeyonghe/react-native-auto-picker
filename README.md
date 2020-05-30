@@ -2,11 +2,18 @@
 - 미리보기 <br>
 ![alt text](./ScreenShot/screenshot.png) <br> <br>
 - 미리설치해야할 모듈 <br>
-npm install --save moment <br> <br>
+```
+npm install --save moment
+```
 - 선언 <br>
-import DatePicker from 'react-native-auto-picker'; <br> <br>
+```
+import DatePicker from 'react-native-auto-picker';
+```
 - 사용 <br> <br>
-this.state={ <br>
-    date : null <br>
-}; <br> <br>
-<DatePicker locale="ko-KR" mode="date" date={new Date()} onDateChange={this.state.date}/> <br>
+```
+this.state={
+    date : null
+};
+
+<DatePicker locale="ko-KR" mode="date" date={new Date()} onDateChange={this.state.date}/>
+```
