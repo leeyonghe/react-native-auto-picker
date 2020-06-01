@@ -1,6 +1,10 @@
 {
   "name": "react-native-auto-picker",
+<<<<<<< HEAD
   "version": "1.0.5",
+=======
+  "version": "1.0.2",
+>>>>>>> parent of a9c81c1... ini
   "description": "",
   "main": "index.js",
   "scripts": {
